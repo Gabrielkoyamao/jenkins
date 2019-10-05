@@ -1,7 +1,8 @@
 #!/bin/sh
 
-ssh -i /var/lib/jenkins/.ssh/pem dev@NODE.SERVER.IP <<EOF
+ssh root@165.22.46.132 <<EOF
  cd ~/node-app
+ echo $USER
  git pull
  npm install — production
  pm2 restart all
