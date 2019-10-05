@@ -1,0 +1,5 @@
+ssh root@165.22.46.132 << EOF
+cd ~/www/jenkins
+git pull
+npm i
+EOF
