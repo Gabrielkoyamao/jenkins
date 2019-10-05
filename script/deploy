@@ -3,4 +3,5 @@ cd ~/www/jenkins
 git pull
 npm i
 pm2 restart index.js
+exit
 EOF
