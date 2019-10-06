@@ -1,4 +1,5 @@
 cd ~/www/semaphore/jenkins
 git pull
 npm i
-pm2 restart index
+pm2 delete all
+pm2 start index.js
