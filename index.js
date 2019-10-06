@@ -1,7 +1,7 @@
 var express = require('express');
-require('dotenv').config()
 var app = express();
 
+console.log(process.env)
 
 app.get('/', function (req, res) {
  res.send("Heello from semaphore " + process.env.DB_HOST + "!!!");
