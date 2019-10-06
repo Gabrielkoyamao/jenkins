@@ -1,0 +1,5 @@
+cd ~/www/semaphore/jenkins
+git pull
+npm i
+pm2 stop all
+pm2 start index
